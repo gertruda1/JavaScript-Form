@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="Style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/e9a98fe199.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
         <title>Form</title>
     </head>
     <body>
@@ -50,15 +51,11 @@
                             <option value="Female">Female</option>
                             <option value="Other">Other</option>
                         </select>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
                     <div class="form-control">
                         <label for="dateOfBirth">Date of birth:</label>
                         <input type="date" id="dateOfBirth">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
                     <div class="form-control">
@@ -82,12 +79,10 @@
                             <option value="Higher-college">Higher-college</option>
                             <option value="Higher-uni">Higher-university</option>
                         </select>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
                     <div class="form-control">
-                        <label for="institution">Last successfully finished educational institution:</label>
+                        <label for="institution">Last finished educational institution:</label>
                         <input type="txt" id="institution" placeholder="Vilnius University">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i>
@@ -96,8 +91,6 @@
                     <div class="form-control">
                         <label for="graduation-year">Graduation years:</label>
                         <input type="date" id="graduation-year">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
 
@@ -118,8 +111,6 @@
                                 <option value="masters">Master's degree</option>
                                 <option value="doctoral">Doctoral degree</option>
                             </select>
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>                        
                     </div>
@@ -137,8 +128,6 @@
                             <select id="degreeC">
                                 <option value="bachelors">Bachelor's degree</option>
                             </select>
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>                        
                     </div>
@@ -156,8 +145,6 @@
                             <select id="degreeV">
                                 <option value="bachelors">Associate degree</option>
                             </select>
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div> 
                     </div>
@@ -207,8 +194,6 @@
                             <option value="married">Married</option>
                             <option value="divorced">Divorced</option>
                         </select>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
                     <div id="ifMarried" style="display: none;">
@@ -231,8 +216,6 @@
                     <div class="form-control">
                         <label for="number-of-kids">Number of kids:</label>
                         <input type="number" id="number-of-kids" min="0" onclick="addFields()">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
                     <div id="appending_div_2">
@@ -250,16 +233,12 @@
                             <option value="not-working">Not working</option>
                             <option value="parental leave">In parental leave</option>
                         </select>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
                     </div>
                     <div id="ifParentalLeave" style="display: none;">
                         <div class="form-control">
                             <label for="expected-end">Expected end of parental leave:</label>
                             <input type="date" id="expected-end">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
                     </div>
@@ -274,8 +253,6 @@
                         <div class="form-control">
                             <label for="course">Course:</label>
                             <input type="number" min="1" max="6" id="course">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
                         <div class="form-control">
@@ -288,8 +265,6 @@
                         <div class="form-control">
                             <label for="expected-graduation-date">Expected graduation date:</label>
                             <input type="date" id="expected-graduation-date">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
                     </div>
@@ -312,8 +287,6 @@
                         <div class="form-control">
                             <label for="experience">Working experience (years):</label>
                             <input type="number" min="0" id="experience">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
                         <div class="form-control">
@@ -324,8 +297,6 @@
                                 <option value="specialist">Specialist</option>
                                 <option value="individual-work">Individual work</option>
                             </select>
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
                         <div class="form-control">
@@ -346,8 +317,6 @@
                                 <option value="culture-entertainment">Culture and entertainment</option>
                                 <option value="education-studies">Education</option>
                             </select>
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
                     </div>
